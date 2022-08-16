@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-5xl font-bold  text-center mt-14">
+        Enjoy Your <span class="text-teal-700 font-extrabold">Banking</span> With Us
+    </h1>
+
+    <main>
+        <section class=" bg-slate-800 w-9/12 mx-auto mt-14">
+            <div class="grid grid-cols-3 gap-4 mb-9">
+                <div class="m-3 p-6 bg-violet-400">
+                    <h1 class=" text-xl">Deposit</h1>
+                    <h1 class=" text-6xl"> <span id="deposit-text">00</span>$</h1>
+                </div>
+                <div class="m-3 p-6 bg-green-300">
+                    <h1 class=" text-xl">Withdrawl</h1>
+                    <h1 class=" text-6xl"> <span id="withdrawl-text">00</span>$</h1>
+                </div>
+                <div class="m-3 p-6 bg-orange-400">
+                    <h1 class=" text-xl">Balance</h1>
+                    <h1 class=" text-6xl"> <span id="balance-text">1200</span>$</h1>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 mb-9">
+                <div class="m-3 p-3 bg-violet-400">
+                    <h1 class=" text-xl">Deposit</h1>
+                    <input type="text" placeholder="Enter Amount of Deposit" id="deposit-field"
+                        class=" block mb-4 p-2 rounded-md text-center w-3/6 mt-4">
+                    <button id="deposit-btn"
+                        class=" bg-violet-500 hover:bg-violet-600 active:bg-violet-700  text-lg text-white font-semibold px-3 py-2 rounded mx-auto ">Submit
+                    </button>
+                </div>
+                <div class="m-3 p-3 bg-green-300">
+                    <h1 class=" text-xl">Withdrawl</h1>
+                    <input type="text" placeholder="Enter Amount of Withdrawl" id="withdrawl-field"
+                        class=" block mb-4 p-2 rounded-md text-center w-3/6 mt-4">
+                    <button id="withdraw-btn"
+                        class=" bg-violet-500 hover:bg-violet-600 active:bg-violet-700  text-lg text-white font-semibold px-3 py-2 rounded mx-auto ">Submit
+                    </button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="deposit.js"></script>
+</body>
+
+</html>
